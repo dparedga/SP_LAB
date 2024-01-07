@@ -24,7 +24,7 @@ to a given group 1 will be displayed on a given color, observations belonging to
 legend displaying the information regarding to groups  Inputs: var1 and var2: Two given variables of the same length groups: A variable the same size as var1 and var2 where the information regarding to group belonging is contained. 
   
 • Based on the variable ‘name’ write some code in the main that creates two new columns in the dataframe: one displaying the subject id (S1, S2, S3…) and another displaying the trial (t1, t2, t3, …, t6 or t7 in some cases). Remover 
-# the column name from the dataframe. 
+the column name from the dataframe. 
 
 • Function normalize (df, op) Given a dataframe df, normalizes all variables according to the options in op. op can only take two values, 0 for normalizing the variables based on the z-score and 1 for normalizing the variables based 
 on the min_max approach. The function returns a dataframe consisting on normalized variables. Be aware of avoiding normalizing variables that are supposed to be categorical, even if the type of such variables is not specifically categorical 
